@@ -1,0 +1,105 @@
+/* Colors -----
+Primary - #B90EC5;
+*/
+
+/* Reset CSS  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Genral Styles */
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR START */
+.main_nav {
+	padding: 15px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	background-color: #000;
+}
+.nav_logo {
+	margin: 0;
+	padding: 0;
+}
+.nav_logo img {
+	height: 35px;
+	padding-right: 40px;
+	border-right: 1px solid #eeeeee9a;
+	margin-right: 20px;
+}
+.nav_links {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.nav_links li a {
+	text-decoration: none;
+	color: #fff;
+	transition: 0.2s;
+	padding: 4px 8px;
+	margin: 0 5px;
+	font-weight: 500;
+}
+.nav_links li a:hover {
+	color: #dad6d6ba;
+}
+/* NAVBAR END */
+
+/* HERO SECTION STYLE START */
+.hero_section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 30px;
+	flex-direction: column;
+	background-image: url(../assets/bg.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 88vh;
+}
+.hero_heading {
+	font-size: 45px;
+	text-align: center;
+	color: #f3f3f3;
+	margin-bottom: 5px;
+	line-height: 1.2;
+}
+.description {
+	color: #f7f3f3;
+	margin-bottom: 10px;
+}
+
+/* HERO SECTION STYLE END */
+
+/* Main Button */
+.main_btn {
+	background-color: #b90ec5;
+	color: #fff;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: 600;
+	transition: 0.2s;
+}
+.main_btn:hover {
+	background-color: #9e0ca9;
+}
+.btn_small {
+	padding: 10px 25px;
+	letter-spacing: 1px;
+	border-radius: 5px;
+}
+.btn_lg {
+	padding: 14px 30px;
+	font-size: 16px;
+	border-radius: 7px;
+	margin-top: 30px;
+}
